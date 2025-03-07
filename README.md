@@ -24,14 +24,12 @@ The Weather Dashboard is a tool designed for users to efficiently track and mana
 - **When** I click on a city in the search history,
   - **Then** I am again presented with current and future conditions for that city.
 
-## Screenshots
+## Screenshots]
 
-![Weather Dashboard Screenshot 1](https://github.com/user-attachments/assets/weather-dashboard-1.png)
+![image alt](https://github.com/DippaFudd/Weather-App/blob/c769a142fd89b5c06af885b1ff101fb258b41d38/2025-03-06%20(8).png)
 
-![Weather Dashboard Screenshot 2](https://github.com/user-attachments/assets/weather-dashboard-2.png)
+![image alt(https://github.com/DippaFudd/Weather-App/blob/c769a142fd89b5c06af885b1ff101fb258b41d38/2025-03-06%20(9).png)
 
-![Weather Dashboard Screenshot 3](https://github.com/user-attachments/assets/weather-dashboard-3.png)
+## Application
 
-## Website
-
-[Your Link Here](https://your-github-username.github.io/Weather-App/)
+[Website](https://dippafudd.github.io/Weather-App/)
