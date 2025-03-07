@@ -28,7 +28,7 @@ The Weather Dashboard is a tool designed for users to efficiently track and mana
 
 ![image alt](https://github.com/DippaFudd/Weather-App/blob/c769a142fd89b5c06af885b1ff101fb258b41d38/2025-03-06%20(8).png)
 
-![image alt(https://github.com/DippaFudd/Weather-App/blob/c769a142fd89b5c06af885b1ff101fb258b41d38/2025-03-06%20(9).png)
+![image alt](https://github.com/DippaFudd/Weather-App/blob/c769a142fd89b5c06af885b1ff101fb258b41d38/2025-03-06%20(9).png)
 
 ## Application
 
