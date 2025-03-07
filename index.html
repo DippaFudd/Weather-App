@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="parallax"></div>
+    <div class="container">
+        <h1>Weather Dashboard</h1>
+        
+        <!-- City Search Form -->
+        <form id="city-form">
+            <input type="text" id="city-input" placeholder="Enter a city" required>
+            <button type="submit">Search</button>
+        </form>
+
+        <!-- Current Weather -->
+        <div id="current-weather"></div>
+
+        <!-- 5-Day Forecast -->
+        <div id="forecast"></div>
+
+        <!-- Search History -->
+        
+        <ul id="history-list"></ul>
+    </div>
+    <div class="parallax"></div>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>

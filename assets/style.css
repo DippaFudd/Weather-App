@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffcc80; /* Light orange background */
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    overflow-y: auto; /* Allow vertical scroll */
+}
+
+.header {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent background */
+    padding: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Vertical layout */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    width: 90%;
+    max-width: 800px; /* Adjust max-width for better centering */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center text */
+    margin-top: 60px; /* Adjust margin to avoid overlap with fixed header */
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #ff7043; /* Orange color */
+    font-size: 24px; /* Smaller font size */
+}
+
+form {
+    display: flex;
+    flex-direction: column; /* Keep form items vertical */
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#city-input {
+    width: 100%; /* Full width for input */
+    padding: 10px;
+    font-size: 14px; /* Smaller font size */
+    border: 1px solid #ff7043; /* Orange border */
+    border-radius: 4px;
+    margin-bottom: 10px; /* Add margin for spacing */
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #ff7043; /* Orange button */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px; /* Smaller font size */
+}
+
+button:hover {
+    background-color: #ff5722; /* Darker orange on hover */
+}
+
+#current-weather, #forecast, #history-list {
+    width: 100%; /* Full width for sections */
+    margin: 10px 0; /* Add margin for spacing */
+}
+
+#current-weather {
+    border: 1px solid #ff7043; /* Orange border */
+    border-radius: 8px;
+    padding: 10px;
+    display: none; /* Initially hide the current weather section */
+}
+
+#current-weather h2, #forecast h2 {
+    font-size: 20px; /* Smaller font size */
+    color: #333;
+}
+
+#current-weather p, #forecast p {
+    font-size: 14px; /* Smaller font size */
+    margin: 3px 0;
+}
+
+#forecast-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap; /* Prevent wrapping */
+    gap: 10px;
+    overflow-x: auto; /* Allow horizontal scroll if needed */
+}
+
+.forecast-card {
+    background-color: #ffebee; /* Light orange background */
+    border: 1px solid #ff7043; /* Orange border */
+    border-radius: 8px;
+    padding: 10px;
+    width: 150px; /* Smaller width for cards */
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.forecast-card p {
+    margin: 3px 0;
+}
+
+#history-list {
+    display: flex; /* Horizontal layout */
+    justify-content: center; /* Center items horizontally */
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+    width: 100%;
+    overflow-x: auto; /* Allow horizontal scroll if needed */
+}
+
+#history-list li {
+    padding: 5px;
+    margin: 0 5px; /* Horizontal margin for spacing */
+    background-color: #fff3e0; /* Light orange background */
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid #ff7043; /* Orange border */
+    white-space: nowrap; /* Prevent text wrapping */
+}
+
+#history-list li:hover {
+    background-color: #ffe0b2; /* Lighter orange on hover */
+}
